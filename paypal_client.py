@@ -4,6 +4,9 @@ from django.conf import settings
 
 class PayPalClient:
     def __init__(self):
+        """
+        Paypal sdk client setup
+        """
         client_id = settings.PAYPAL_CLIENT_ID
         client_secret = settings.PAYPAL_CLIENT_SECRET
         mode = settings.PAYPAL_MODE
