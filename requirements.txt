@@ -1,0 +1,42 @@
+# Core framework
+Django==4.2.23
+djangorestframework==3.16.0
+django-cors-headers==4.7.0
+sqlparse==0.5.3
+asgiref==3.9.1
+tzdata==2025.2
+
+# PayPal Server SDK (correct one)
+paypal-checkout-serversdk==1.0.3
+paypalhttp==1.0.1
+
+# Environment
+python-decouple==3.8
+python-dotenv==1.1.1
+
+# Database
+psycopg2-binary==2.9.10
+
+# Requests & utilities
+requests==2.32.4
+urllib3==2.5.0
+certifi==2025.7.14
+idna==3.10
+charset-normalizer==3.4.2
+python-dateutil==2.9.0.post0
+six==1.17.0
+setuptools==80.9.0
+
+# Security
+cryptography==45.0.5
+pyOpenSSL==25.1.0
+cffi==1.17.1
+pycparser==2.22
+
+# Serialization / misc
+jsonpickle==3.3.0
+jsonpointer==2.4
+msgpack==1.1.1
+CacheControl==0.12.14
+#swagger
+drf_yasg

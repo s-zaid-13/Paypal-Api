@@ -1,0 +1,23 @@
+<!-- templates/one_time_success.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Successful</title>
+</head>
+
+<body>
+    <h1>🎉 Payment Approved</h1>
+    <p>Now Go to capture payment endpoints to perform transaction</p>
+    <a href="http://localhost:8000/api/">Go back to Api docs</a>
+
+    <script>
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+</body>
+
+</html>

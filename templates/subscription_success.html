@@ -1,0 +1,23 @@
+<!-- templates/subscription_success.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Successful</title>
+</head>
+
+<body>
+    <h1>🎉 Subscription Activated</h1>
+    <p>You're now subscribed! Enjoy premium access.</p>
+    <a href="http://localhost:8000/api/">Go back to Api docs</a>
+
+    <script>
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+</body>
+
+</html>

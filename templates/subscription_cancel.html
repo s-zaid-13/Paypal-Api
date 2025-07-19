@@ -1,0 +1,23 @@
+<!-- templates/subscription_cancel.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Cancelled</title>
+</head>
+
+<body>
+    <h1>⚠️ Subscription Not Completed</h1>
+    <p>You cancelled the subscription process. No payment was made.</p>
+    <a href="http://localhost:8000/api/">Go back to Api docs</a>
+
+    <script>
+        history.pushState(null, null, location.href);
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+</body>
+
+</html>
