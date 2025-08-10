@@ -11,4 +11,4 @@ Detailed transaction history
 
 PayPal webhook event handling
 
-Secure environment variable configuration (.env)
+Secure environment variable configuration in (.env)
